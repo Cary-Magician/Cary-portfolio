@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Russo+One&display=swap');
+
+.nav-menu :nth-child(2)::after {
+  position: absolute;
+  content: '';
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background-color: black;
+  bottom: 12%;
+  left: 50%;
+  opacity: 1;  
+  transform: translateX(-50%);
+  transition: all 0.2s;
+}
+
+.about-whole-section {
+  margin-top: 140px;
+  /* border: 1px solid blue; */
+  display: flex;
+  padding-left: 7vw;
+  padding-right: 7vw;
+}
+
+.our-story {
+  background-color: rgba(209, 207, 180, 0.596);
+  width: 9em;
+  padding-right: .5em;
+  padding-top: .4em;
+  padding-bottom: .4em;
+  padding-left: 1.5em;
+  border-radius: 30px;
+  font-size: .8rem;
+  font-weight: 550;
+}
+
+.story-and-mission {
+  /* border: 1px solid yellow; */
+  /* width: 90vw; */
+  width: 50vw;
+}
+
+.story-and-mission h1{
+  width: 13em;
+  font-size: 3rem;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.story-and-mission :nth-child(3) {
+  width: 25em;
+  color: rgb(77, 77, 77);
+  line-height: 1.6em;
+}
+
+.mission-icons {
+  /* border: 1px solid black; */
+  width: 300px;
+}
+
+.mission-icons-container {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 21px;
+  margin-top: 25px;
+  /* width: 321px;
+  border: 1px solid pink; */
+}
+
+.mission-emergency-div {
+  /* background-color: rgba(255, 68, 0, 0.541); */
+  background-color: rgb(133, 133, 255);
+  width: max-content;
+  padding: .1em;
+  border-radius: 50%;
+}
+
+.mission-icons img{
+  width: 59px;
+  height: 52px;
+  border-radius: 50%;
+  /* border: 1px solid brown; */
+}
+
+.mission-icons :nth-child(2) {
+  color: black;
+  font-weight: bold;
+}
+
+.mission-icons :nth-child(3) {
+  width: 15em;
+}
+
+.second-part {
+  /* border: 1px solid red; */
+  position: relative;
+}
+
+.hero-image-container {
+  /* border: 1px solid green; */
+  width: 410px;
+  height: 602px;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.second-part img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: top;
+}
+
+.about-stats {
+  position: absolute;
+  bottom: 0;
+  left: -25%;
+  border: 1px solid rgba(255, 255, 255, 0.192);
+  background-color: rgba(255, 255, 255, 0.096);
+  backdrop-filter: blur(12px);
+  border-radius: 10px;
+  display: flex;
+  padding: 2em;
+  text-align: center;
+  gap: 4em;
+}
+
+.about-stats div{
+  display: flex;
+  flex-direction: column;
+  width: 9em;
+  /* border: 1px solid red; */
+  gap: 0.1em;
+}
+
+.about-stats div :nth-child(1) {
+  font-family: Russo One;
+  /* font-weight: bold; */
+  font-size: 2.5rem;
+  color: black;
+}
+
+.about-stats div :nth-child(2) {
+  font-size: .9rem;
+}

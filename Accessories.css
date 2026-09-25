@@ -1,0 +1,51 @@
+.nav-menu :nth-child(3)::after {
+  position: absolute;
+  content: '';
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background-color: black;
+  bottom: 12%;
+  left: 50%;
+  opacity: 1;  
+  transform: translateX(-50%);
+  transition: all 0.2s;
+}
+
+.collections-navbar p::after {
+  position: absolute;
+  content: '';
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background-color: black;
+  bottom: 12%;
+  left: 7%;
+  opacity: 0;
+  transform: translateX(-50%);
+  transition: all 0.2s;
+}
+
+.collections-navbar p:hover::after {
+  opacity: 1;
+  left: 50%;  
+}
+
+.collections-navbar :nth-child(4)::after {
+  position: absolute;
+  content: '';
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background-color: black;
+  bottom: 12%;
+  left: 50%;
+  opacity: 1;  
+  transform: translateX(-50%);
+  transition: all 0.2s;
+}
+
+.collections-navbar :nth-child(1)::after {
+  opacity: 0;
+  left: 7%;
+}
