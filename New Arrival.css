@@ -1,0 +1,68 @@
+body {
+  font-family: Google sans, inter, Arial, Helvetica, sans-serif;
+}
+
+.new-tag-labels {
+  position: absolute;
+  z-index: 2;
+  top: 12px;
+  left: 12px;
+  background-color: rgb(255, 0, 0);
+  color: white;
+  padding: .5em;
+  border-radius: 25px;
+  font-size: .8rem;
+  font-weight: 550;
+}
+
+.nav-menu :nth-child(3)::after {
+  position: absolute;
+  content: '';
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background-color: black;
+  bottom: 12%;
+  left: 50%;
+  opacity: 1;  
+  transform: translateX(-50%);
+  transition: all 0.2s;
+}
+
+.collections-navbar p::after {
+  position: absolute;
+  content: '';
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background-color: black;
+  bottom: 12%;
+  left: 7%;
+  opacity: 0;
+  transform: translateX(-50%);
+  transition: all 0.2s;
+}
+
+.collections-navbar p:hover::after {
+  opacity: 1;
+  left: 50%;  
+}
+
+.collections-navbar :nth-child(5)::after {
+  position: absolute;
+  content: '';
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background-color: black;
+  bottom: 12%;
+  left: 50%;
+  opacity: 1;  
+  transform: translateX(-50%);
+  transition: all 0.2s;
+}
+
+.collections-navbar :nth-child(4)::after {
+  opacity: 0;
+  left: 7%;
+}
