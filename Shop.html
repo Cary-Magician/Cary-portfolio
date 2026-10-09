@@ -22,6 +22,7 @@
   <body>
     <!-- This is for the navigation bar. -->
     <header>
+      <div class="over"></div>
       <nav>
         <div>
           <a href="index.html"><img class="logo" src="Logo/Packd logo.png" alt="" /></a>
@@ -45,10 +46,36 @@
             <p>Search</p>
           </div>
           <div class="hamburger-menu-container">
-            <img class="hamburger-menu" src="icons/settings.png" alt="">
+            <img class="hamburger-menu" onclick="openSidebar()" src="icons/settings.png" alt="">
           </div>
         </div>
       </nav>
+        <nav class="nav-been-moved">
+          <div class="top-nav">
+            <div>
+              <img class="cancel" onclick="closeSidebar()" src="icons/cancel.png" alt="" />
+            </div>
+            <div class="nav-menu-was-moved">
+              <a href="Shop.html">
+                <p>Shop</p>
+              </a>
+              <a href="About.html">
+                <p>About</p>
+              </a>
+              <a href="All Collections.html">
+                <p>Collections</p>
+              </a>
+            </div>
+          </div>
+
+          <div class="bottom-nav">
+            <div class="nav-icons-was-moved">
+              <div class="cart-container-was-moved">
+                <img class="cart-icon-was-moved" src="icons/shopping-cart.png" alt="" />
+              </div>
+            </div>
+          </div>
+        </nav>
     </header>
     <main>
       <section class="shop-hero-section">
